@@ -13,7 +13,7 @@ class App extends React.Component {
 export default {
   path: "/",
   component: App,
-  indexRoute: { component: Page6 },
+  indexRoute: { component: HomePage },
   childRoutes: [
     {
       path: "/work",
@@ -28,7 +28,7 @@ export default {
     {
       path: "*",
       name: "notfound",
-      component: Page6
+      component: HomePage
     }
   ]
 };
